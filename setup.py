@@ -1,7 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name="scl",
+    name="sclprogram",
     version="0.1",
-    packages=find_packages(),
+    description="Swarm Computing Library",
+    py_modules=["scl"], # This tells pip to look for scl.py
+    install_requires=[], # Add numpy or other libraries here if needed
 )
